@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "5HC8QLDexqy3AW5/eF/85TKfDhEtsHZIfe9lyIKeUXZ747DWATAJKiNNPuBH66nVFM3EtcOGhp3BYX0/1UY6KA==",
+  "success": true,
+  "projectFilePath": "D:\\_Works\\_Foreshow Network Team\\The-Call-of-Mythos\\The-Call-of-Mythos\\Mythonia\\Mythonia.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Yuen\\.nuget\\packages\\monogame.content.builder.task\\3.8.0.1641\\monogame.content.builder.task.3.8.0.1641.nupkg.sha512",
+    "C:\\Users\\Yuen\\.nuget\\packages\\monogame.framework.desktopgl\\3.8.0.1641\\monogame.framework.desktopgl.3.8.0.1641.nupkg.sha512"
+  ],
+  "logs": []
+}
