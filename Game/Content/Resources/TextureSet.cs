@@ -9,15 +9,19 @@ using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
 
 
-namespace Mythonia.Game.Draw.Resources
+
+
+namespace Mythonia.Game.Content.Resources
 {
     /// <summary>
-    /// 动画类，存储了一组Texture，作为动画的每帧<br/>
-    /// 会按照各种数据计算当前动画应该显示的帧
+    /// 材质集的类
     /// </summary>
-    class Animation
-    {        
-        private List<Texture2D> TextureFrames;
+    class TextureSet
+    {
+        public Texture2D Texture;
+
+        public string Name { get; set; }
+        public int FrameAmount { get; set; }
 
         /// <summary>贴图的尺寸</summary>
         public Vector2 Size;
@@ -28,10 +32,11 @@ namespace Mythonia.Game.Draw.Resources
         /// </summary>
         private Vector2 Origin;
 
-
-        public Texture2D GetTextureFrame()
+        public TextureSet(Xna.Content.ContentManager content, string name)
         {
-            return TextureFrames[0];
+            Texture = content.Load<Texture2D>(name);
+            Json.Model.TextureSetMeta meta = Json.JsonManager.DeserializeJson<Json.Model.TextureSetMeta>(content.RootDirectory);
         }
+
     }
 }

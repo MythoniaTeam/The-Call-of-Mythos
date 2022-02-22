@@ -8,7 +8,7 @@ using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
 
-using Mythonia.Game.Draw.Resources;
+using Mythonia.Game.Content.Resources;
 
 
 namespace Mythonia.Game.Draw
@@ -19,13 +19,13 @@ namespace Mythonia.Game.Draw
         /// <summary>贴图的动画资源</summary>
         private Animation Animation;
 
-        public Texture2D Texture
+        /*public Texture2D Texture
         {
             get
             {
                 return Animation.GetTextureFrame();
             }
-        }
+        }*/
 
 
         

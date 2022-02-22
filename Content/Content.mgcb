@@ -13,7 +13,7 @@
 
 #---------------------------------- Content ---------------------------------#
 
-#begin Assets/Images/BouncingBomb.png
+#begin Images/BouncingBomb.png
 /importer:TextureImporter
 /processor:TextureProcessor
 /processorParam:ColorKeyColor=255,0,255,255
@@ -23,22 +23,10 @@
 /processorParam:ResizeToPowerOfTwo=False
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
-/build:Assets/Images/BouncingBomb.png
+/build:Images/BouncingBomb.png
 
-#begin Assets/Images/BouncingBomb.png
-/importer:TextureImporter
-/processor:TextureProcessor
-/processorParam:ColorKeyColor=255,0,255,255
-/processorParam:ColorKeyEnabled=True
-/processorParam:GenerateMipmaps=False
-/processorParam:PremultiplyAlpha=True
-/processorParam:ResizeToPowerOfTwo=False
-/processorParam:MakeSquare=False
-/processorParam:TextureFormat=Color
-/build:Assets/Images/BouncingBomb.png
-
-#begin Assets/Images/Json/BouncingBomb.json
+#begin Images/Json/BouncingBomb.json
 /importer:
 /processor:
-/build:Assets/Images/Json/BouncingBomb.json
+/build:Images/Json/BouncingBomb.json
 

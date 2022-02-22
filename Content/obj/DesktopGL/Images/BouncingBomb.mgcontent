@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <SourceFile>D:/_Works/_Foreshow Network Team/The-Call-of-Mythos/The-Call-of-Mythos/Mythonia/Content/Assets/Images/BouncingBomb.png</SourceFile>
+  <SourceFile>D:/_Works/_Foreshow Network Team/The-Call-of-Mythos/The-Call-of-Mythos/Mythonia/Content/Images/BouncingBomb.png</SourceFile>
   <SourceTime>2022-02-21T22:25:48.9332765+08:00</SourceTime>
-  <DestFile>D:/_Works/_Foreshow Network Team/The-Call-of-Mythos/The-Call-of-Mythos/Mythonia/Content/bin/DesktopGL/Assets/Images/BouncingBomb.xnb</DestFile>
-  <DestTime>2022-02-22T09:04:06.9203462+08:00</DestTime>
+  <DestFile>D:/_Works/_Foreshow Network Team/The-Call-of-Mythos/The-Call-of-Mythos/Mythonia/Content/bin/DesktopGL/Images/BouncingBomb.xnb</DestFile>
+  <DestTime>2022-02-22T13:37:29.0406134+08:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2020-08-10T16:17:54+08:00</ImporterTime>
   <Processor>TextureProcessor</Processor>

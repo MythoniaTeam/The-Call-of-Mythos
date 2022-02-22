@@ -1,0 +1,30 @@
+{
+  "Name": "Player",
+
+  "FrameAmount": 8,
+  "Size": {
+    "X": 8,
+    "Y": 16
+  },
+  "Origin": {
+    "X": 4,
+    "Y": 8
+  },
+
+  "Animation": [
+    {
+      "Name": "Stand",
+      "Delay": 1,
+      "Frame": [ 1, 2, 3, 4 ]
+    },
+    {
+      "Name": "Run",
+      "Delay": 10,
+      "FrameRange": [ 5, 8 ]
+    }
+  ]
+
+
+}
+
+
