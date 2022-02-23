@@ -1,4 +1,1 @@
 # The-Call-of-Mythos
-*.cache
-*obj/*
-*bin/*
